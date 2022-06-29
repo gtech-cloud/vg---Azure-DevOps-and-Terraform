@@ -23,7 +23,7 @@ stages:
     - task: Docker@2
       inputs:
         containerRegistry: 'gTech Cloud Docker hub'
-        repository: 'gtechcloud/demoProj'
+        repository: 'gtechcloud/webapp'
         command: 'buildAndPush'
         Dockerfile: '**/Dockerfile'
         tags: |
